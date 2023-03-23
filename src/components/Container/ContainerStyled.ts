@@ -2,7 +2,19 @@ import styled from "styled-components";
 
 export const Main = styled.main``;
 
-export const Container = styled.div`
+interface ContainerProps {
+  align?: string;
+  maxWidth?: string;
+  marginTop?: string;
+  marginBottom?: string;
+}
+
+export const Container = styled.div<ContainerProps>`
+  text-align: ${(props) => (props.align ? props.align : "left")};
+  max-width: ${(props) => (props.maxWidth ? props.maxWidth : "100%")};
+  margin: 0 auto;
+  margin-top: ${(props) => (props.marginTop ? props.marginTop : "0")};
+  margin-bottom: ${(props) => (props.marginBottom ? props.marginBottom : "0")};
   padding: 0 1rem;
 `;
 
@@ -12,4 +24,7 @@ export const NavContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  a {
+    color: white;
+  }
 `;

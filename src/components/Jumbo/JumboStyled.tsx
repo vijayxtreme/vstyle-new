@@ -4,8 +4,8 @@ export const JumboTron = styled.section`
   background: linear-gradient(97.44deg, #ff71ce, #01cdfe 99.98%);
   border-radius: 0;
   color: #fff;
-  min-height: 50vh;
-  padding: 2rem 0;
+  min-height: 45vh;
+  padding-top: 150px;
   text-align: center;
 
   h1 {
@@ -13,6 +13,8 @@ export const JumboTron = styled.section`
     text-transform: uppercase;
     letter-spacing: 28px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 4rem;
+    font-weight: 300;
   }
 
   span {
