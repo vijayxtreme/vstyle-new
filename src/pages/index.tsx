@@ -22,12 +22,12 @@ export default function Home() {
         <h2>Thanks for Visiting!</h2>
         <p>
           Hi, and welcome to my web developer portfolio. I decided to create a
-          portfolio given that the traditional 'paper' resume feels a bit
+          portfolio given that the traditional paper resume feels a bit
           incomplete in this modern era. It feels a bit impossible to sum up
           EVERYTHING about me onto two pieces of paper.
         </p>
         <p>
-          I realize some people just want the "cliff notes", and so yes I would
+          I realize some people just want the cliff notes, and so yes I would
           hand them a resume, but for those who are more detail oriented like
           myself, I think they would appreciate a website like this.
         </p>
