@@ -5,7 +5,7 @@ import { upper } from "@/util/util";
 export const Jumbo = () => {
   return (
     <JumboTron>
-      <h1>Web Developer</h1>
+      <h1>Sr. Software Engineer</h1>
       <span>[Vijay.Menon]</span>
       <section>
         <p className="mt-5">

@@ -1,22 +1,32 @@
-import { Header } from "@/components/Header/Header";
-import { Footer } from "@/components/Footer/Footer";
 import { getAllPages, getPageBySlug } from "@/util/posts";
 import { markdownToHtml } from "@/util/markdown";
-import { Container } from "@/components/Container/ContainerStyled";
+import Page from "@/components/Page";
 
-export default function InsidePages({ meta, content }) {
+interface InsidePagesProps {
+  slug: string;
+  frontmatter: {
+    title: string;
+    description: string;
+  };
+  content: string;
+}
+
+export default function InsidePages({
+  slug,
+  frontmatter,
+  content,
+}: InsidePagesProps) {
+  const { title, description } = frontmatter;
   return (
-    <div>
-      <Header />
-      {meta}
-      <Container maxWidth="1200px" marginBottom="3rem" marginTop="3rem">
-        <section dangerouslySetInnerHTML={{ __html: content }} />
-      </Container>
-      <Footer />
-    </div>
+    <Page
+      title={title}
+      slug={slug}
+      description={description}
+      content={content}
+    />
   );
 }
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: { params: { slug: string } }) {
   const page = getPageBySlug(params.slug);
   const content = await markdownToHtml(page.content || "");
   return {

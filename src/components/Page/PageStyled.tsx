@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
-
-export const NiceDiv = styled.div`
-    color: #333;
-    font-weight: 900;
-`
+export const PageStyled = styled.div`
+  .content {
+    ul {
+      font-weight: 300;
+    }
+    a {
+      color: blue;
+    }
+  }
+`;

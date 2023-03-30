@@ -12,7 +12,6 @@ export const EN_US = {
   nav: [
     { name: "Home", url: "/" },
     { name: "About", url: "/about" },
-    { name: "Blog", url: "/blog" },
     { name: "Resume", url: "/resume" },
     { name: "Contact", url: "/contact" },
   ],
