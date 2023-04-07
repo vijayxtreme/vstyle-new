@@ -11,7 +11,7 @@ export const JumboTron = styled.section`
   h1 {
     margin-bottom: 2rem;
     text-transform: uppercase;
-    letter-spacing: 28px;
+    letter-spacing: 1rem;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 4rem;
     font-weight: 300;
@@ -20,7 +20,7 @@ export const JumboTron = styled.section`
   span {
     font-size: 1.5rem;
     font-weight: 200;
-    letter-spacing: 28px;
+    letter-spacing: 1rem;
     display: block;
     margin-bottom: 2rem;
   }
@@ -32,6 +32,22 @@ export const JumboTron = styled.section`
     }
     &:last-child:after {
       content: "";
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 349px) {
+    h1 {
+      font-size: 1rem;
+    }
+    span {
+      font-size: 1rem;
+      letter-spacing: 0.5rem;
     }
   }
 `;

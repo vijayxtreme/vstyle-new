@@ -27,4 +27,11 @@ export const NavContainer = styled(Container)`
   a {
     color: white;
   }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    h2 {
+      margin-top: 1.5rem;
+      margin-bottom: 0;
+    }
+  }
 `;

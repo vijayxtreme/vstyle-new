@@ -4,17 +4,13 @@ description: 'Example using Prism / Markdown with Next.js including switching sy
 ---
 
 
-## Download A Resume
-
-<a href="https://docs.google.com/document/d/1LOyDY1q-4zi-mYZvXNXAHVQqSQPv4--xNgftG0eCRsM/edit?usp=sharing" target="_blank">Download PDF</a>
-
-**Vijay Menon ­| Full Stack Software Engineer**
+# Vijay Menon ­| Full Stack Software Engineer
 
  323-944-2055 | [vijaymenonx@gmail.com](mailto:vijaymenonx@gmail.com) | Long Beach, CA 
 
 **OVERVIEW**
 
-Am fluent in a variety of in demand technologies, e.g. JavaScript, React, Node.js, GraphQL, SQL, PHP & Scrum/Agile.  I am a fast learner who onboards well and begins contributing day one. Aspire for Lead, or elevated remote roles at the Senior Software Engineer level (including Principal, Staff). 
+I am a seasoned engineer with 8+ years of experience crafting full stack web applications. I've contributed to the design and implementation of monolith and microservice architectures for applications that have scaled delivery of data, video and content to millions of users. I love a challenge solving interesting problems as part of a team and am always learning to keep up with the evolving modern web. 
 
 **EXPERIENCE**
 
@@ -24,7 +20,7 @@ _Jul 2022 - Feb 2023_
 
 _Remote | Santa Monica, California_
 
-Helped [EVgo](https://evgo.com) develop technologies for their Retail and Fleet products, largely based on React, TypeScript, Node, and GraphQL microservice architectures.  My roles were largely to help improve the variety of frontend and backend services that exist for customer and account management, charger and equipment inventory/management, as well as help develop and improve algorithms working with data scientists to manage vehicle charging systems for optimal battery performance.   
+Helped [EVgo](evgo.com) develop technologies for their Retail and Fleet products, largely based on React, TypeScript, Node, and GraphQL microservice architectures.  My roles were largely to help improve the variety of frontend and backend services that exist for customer and account management, charger and equipment inventory/management, as well as help develop and improve algorithms working with data scientists to manage vehicle charging systems for optimal battery performance.   
 
 Key project initiatives:
 
@@ -41,13 +37,14 @@ Highly Scrum/Agile environment, GitFlow, working with product managers, stakehol
 
 **Sr Software Engineer, Beachbody**
 
-_Apr 2021 - Current_
+_Apr 2021 - Jun 2022_
 
 _Remote | Santa Monica, California_
 
 Worked on highly large scale apps including [Beachbodyondemand.com](https://beachbodyondemand.com) as a full stack React & Node.js developer.  Was responsible for designing scalable solutions, producing and maintaining high performing and maintainable code, and working in a SCRUM/Agile team based environment across organization to ensure quality releases and timely responses to production and deployment.   
 
 Key project initiatives:
+
 
 
 * Developed new features and programs for BeachbodyonDemand.com using React Ecosystem.
@@ -64,7 +61,7 @@ _Nov 2016 - Apr 2021_
 _Orange County, California_ 
 
 
-Primary responsibilities were to design and develop websites, landing pages that help promote [RadNet](https://radnet.com) imaging technologies, research and applications that interface with RadNet customers. I was tasked with making improvements to UI, front-end, backend and relevant software engineering aspects to help improve the overall experience of customers utilizing RadNet web services.
+Primary responsibilities were to design and develop websites, landing pages that help promote [RadNet](radnet.com) imaging technologies, research and applications that interface with RadNet customers. I was tasked with making improvements to UI, front-end, backend and relevant software engineering aspects to help improve the overall experience of customers utilizing RadNet web services.
 
 Key project initiatives:
 
@@ -74,7 +71,7 @@ Key project initiatives:
 * Migration of sites from Pantheon ecosystem to AWS, huge cost savings for company
 * Updated legacy sites to modern webflows using React, D3, Angular, Gatsby and Next.js
 * Led development of RadNetTV and Rad.Link, leading to new revenue stream for department
-* Site samples include: [Prostate@RadNet](https://prostate.radnet.com), [RadNetTV](https://radnet.tv), [Arizona Diagnostic Radiology](https://www.arizonadiagnosticradiology.com/), [RadNet.com](https://radnet.com)
+* Site samples include: [Prostate@RadNet](prostate.radnet.com), [RadNetTV](radnet.tv), [Arizona Diagnostic Radiology](https://www.arizonadiagnosticradiology.com/), [RadNet.com](radnet.com)
 
 **Web Developer, Equate Media**
 

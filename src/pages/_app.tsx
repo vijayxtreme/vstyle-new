@@ -19,10 +19,25 @@ const GlobalStyle = createGlobalStyle`
     margin: 0 0 1.45rem;
     padding: 0;
     font-weight: 300;
+    line-height: 1.8;
   }
   a { 
     text-decoration: none;
   }
+ 
+  ul li {
+    line-height: 1.8;
+  }
+  @media (max-width: 349px) {
+    h2 {
+      font-size: 1rem;
+    }
+    body {
+      font-size: 0.9rem;
+    }
+
+  }
+
 `;
 export default function App({ Component, pageProps }: AppProps) {
   return (
