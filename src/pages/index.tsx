@@ -19,7 +19,32 @@ export default function Home() {
         <Jumbo />
       </main>
       <Container maxWidth="1200px" marginTop="3rem" marginBottom="3rem">
-        <h2>Thanks for Visiting!</h2>
+        <section style={{ textAlign: `center` }}>
+          <h2 style={{ marginTop: `2rem`, textAlign: `center` }}>
+            Thanks for Visiting!
+          </h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/xUjhaunK154"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+          <p>
+            More videos on my{" "}
+            <a
+              href="https://youtube.com/hackbuddyorg"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Youtube channel
+            </a>
+            .
+          </p>
+        </section>
+
         <p>
           Hi, and welcome to my web developer portfolio. I decided to create a
           portfolio given that the traditional paper resume feels a bit

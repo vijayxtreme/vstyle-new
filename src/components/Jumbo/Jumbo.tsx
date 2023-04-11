@@ -1,11 +1,12 @@
-import { JumboTron } from "./JumboStyled";
+import Link from "next/link";
+import { JumboTron, JumboH1, JumboBtn } from "./JumboStyled";
 import { EN_US as lang } from "@/lang/en-US";
 import { upper } from "@/util/util";
 
 export const Jumbo = () => {
   return (
     <JumboTron>
-      <h1>Sr. Software Engineer</h1>
+      <JumboH1>Sr. Software Engineer</JumboH1>
       <span>[Vijay.Menon]</span>
       <section>
         <p className="mt-5">
@@ -15,6 +16,9 @@ export const Jumbo = () => {
             </a>
           ))}
         </p>
+        <Link href="/resume">
+          <JumboBtn>View Resume</JumboBtn>
+        </Link>
       </section>
     </JumboTron>
   );
